@@ -1,5 +1,4 @@
-<?php
-/*
- * Created on 22.12.2013
- */
-?>
+<h1>Welcome!</hi>
+<p>
+It is just a site!
+</p>
