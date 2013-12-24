@@ -9,7 +9,7 @@
 	<meta name="author" content="" />
 	<meta name="copyright" content="" />	  
 	<meta name="revisit-after" content="3 days" />
-	<link href="<?=UrlHelper::getUrl()?>/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
 	<!--[if IE]><link href="css/ie-transparency.css" rel="stylesheet" type="text/css" /><![endif]-->    
 </head>
 
@@ -22,12 +22,14 @@
     
 	<div id="body">
 		<ul id="nav">
-			<li class="on first"><a href="<?=UrlHelper::getUrl()?>site/index">Home page</a></li>
-			<li><a href="<?=UrlHelper::getUrl()?>base/index">Mobile base</a></li>
-			<li><a href="<?=UrlHelper::getUrl()?>site/about">About me</a></li>
+			<li class="on first"><a href="index">Home page</a></li>
+			<li><a href="base">Mobile base</a></li>
+
+			<li><a href="about">About me</a></li>
 		</ul>
 		<div id="content"><div>
-				<?php include 'application/views/'.$content_view.'.php'; ?>
+				<h1>404 Error</h1></br>
+				Hey, bro, there are no this page. Maybe it somewhere close to us...
 		</div></div>	
 	</div>
 	

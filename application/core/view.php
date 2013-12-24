@@ -4,17 +4,17 @@
  */
 class View
 {
-	//public $template_view; // view by default
+	private $template_view = 'template_view.php';
 	
-	function generate($content_view, $template_view, $data = null)
+	function generate($content_view, $data = null)
 	{
-		/*
+		
 		if(is_array($data)) {
 			// convert elements of array to varibles
 			extract($data);
 		}
-		*/
 		
-		include 'application/views/'.$template_view;
+		include 'application/views/'.$this->template_view;
 	}
+	
 }
